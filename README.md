@@ -44,7 +44,7 @@ If the dependencies are already installed, you can skip this step.
 ## Usage
 
 ### Command Prompt, Terminal, or Python Console
-To evaluate an OpenFOAM simulation log file, use the following command:
+To evaluate an OpenFOAM simulation log file, open Command Prompt or Terminal, place the openFoamEvaluation.py and the log file in the same directory, and use the following command:
 ```bash
 python openFoamEvaluation.py --file logfilename
 ```
@@ -52,11 +52,7 @@ python openFoamEvaluation.py --file logfilename
 - `--file`: Specifies the log file to be analyzed. Replace `logfilename` with the actual name of your log file, e.g., `log.txt`.
 
 ### Jupyter Notebook or Google Colab
-If running the script in a Jupyter Notebook or Google Colab environment, simply use:
-```python
-!python openFoamEvaluation.py
-```
-In this case, no argument is required. The script will prompt you to input the log file name interactively.
+Currently, the code is exclusive to be used in Command Prompt or Terminal.
 
 ---
 
