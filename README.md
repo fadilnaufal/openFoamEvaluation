@@ -70,7 +70,7 @@ smooth = "Gauss"
 ```
 
 ### Customized Residual Variables
-To manually specify custom variables for residual plotting, modify the `variables` list on line 302 of the script:
+To manually specify custom variables for residual plotting, modify the `variables` list on line 302 of the script. For example:
 ```python
 variables = ["alpha.water", "Ux", "Uy", "Uz", "p_rgh", "omega", "k"]
 ```
