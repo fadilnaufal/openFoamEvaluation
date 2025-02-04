@@ -8,7 +8,7 @@ This Python script evaluates OpenFOAM simulations by analyzing the log file gene
 
 ---
 
-<img src="image/output_courant.png" alt="Courant Graph" width="300"> <img src="image/output_continuity.png" alt="Continuity Graph" width="300"> <img src="image/output_residual.png" alt="Residual Graph" width="300">
+<img src="image/output_courant.png" alt="Courant Graph" width="250"> <img src="image/output_continuity.png" alt="Continuity Graph" width="250"> <img src="image/output_residual.png" alt="Residual Graph" width="250">
 
 ---
 
