@@ -44,7 +44,7 @@ If the dependencies are already installed, you can skip this step.
 ## Usage
 
 ### Command Prompt, Terminal, or Python Console
-To evaluate an OpenFOAM simulation log file, open Command Prompt or Terminal, place the openFoamEvaluation.py and the log file in the same directory, and use the following command:
+To evaluate an OpenFOAM simulation log file, place the openFoamEvaluation.py and the log file in the same directory, open Command Prompt or Terminal to that directory, and execute the following command:
 ```bash
 python openFoamEvaluation.py --file logfilename
 ```
