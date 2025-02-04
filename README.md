@@ -51,6 +51,12 @@ python openFoamEvaluation.py --file logfilename
 **Arguments:**
 - `--file`: Specifies the log file to be analyzed. Replace `logfilename` with the actual name of your log file, e.g., `log.txt`.
 
+or simply run:
+```bash
+python openFoamEvaluation.py
+```
+and the script will ask the log file name to the user.
+
 ### Jupyter Notebook or Google Colab
 Currently, the code is exclusive to be used in Command Prompt or Terminal.
 
