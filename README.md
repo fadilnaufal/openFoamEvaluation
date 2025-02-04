@@ -24,7 +24,7 @@ This Python script evaluates OpenFOAM simulations by analyzing the log file gene
 ---
 
 ## Important Notes
-To generate a log file for evaluation, use the `tee` command in Terminal or WSL. For example:
+To generate a log file for evaluation, use the `tee` command in Terminal or Windows Subsystem for Linux (WSL). For example:
 ```bash
 $ interFoam | tee log.txt
 ```
