@@ -15,10 +15,10 @@ This Python script evaluates OpenFOAM simulations by analyzing the log file gene
 ## Features
 - Automatic detection of steady-state or transient simulations
 - Time step continuity error plotting
-- Automatic detection of all available variables for residual plotting
+- Automatic detection of all available solved variables for residual plotting
 - Courant number evaluation for transient cases
 - Graph smoothing with optional method choices
-- Interactive and auto-saved graph
+- Interactive and auto-saved graphs
 - CSV table generation from evaluated data
 
 ---
