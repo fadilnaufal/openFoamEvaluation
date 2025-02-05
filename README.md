@@ -4,7 +4,7 @@ openFoamEvaluation : Python script for evaluating OpenFOAM simulation
 ---
 
 ## Description
-This Python script evaluates OpenFOAM simulations by analyzing the log file generated during computations. The script automatically detects whether a simulation is steady-state or transient. For transient simulations, it plots Courant number evaluations. By default, the script plots time step continuity errors and identifies available variables for residual plotting.
+The openFoamEvaluation.py is a Python script that evaluates OpenFOAM simulations by analyzing the log file generated during computations. The script automatically detects whether a simulation is steady-state or transient. For transient simulations, it plots Courant number evaluations. By default, the script plots time step continuity errors and identifies available variables for residual plotting. Evaluating a simulation log file provides valuable insights into the simulation's validity, convergence behavior, and overall stability.
 
 ---
 
